@@ -37,7 +37,7 @@ public class BMICalculatorTests {
 
     @Test
     public void checkOverweightCategoryLowerLimit() {
-        System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src//test//resources//chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://healthunify.com/bmicalculator/");
         WebElement weightInput = driver.findElement(By.name("wg"));
@@ -56,7 +56,7 @@ public class BMICalculatorTests {
 
     @Test
     public void checkOverweightCategoryHighLimit() {
-        System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src//test//resources//chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://healthunify.com/bmicalculator/");
         WebElement weightInput = driver.findElement(By.name("wg"));
@@ -75,7 +75,7 @@ public class BMICalculatorTests {
 
     @Test
     public void checkStarvationCategoryBoundaryValue() {
-        System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src//test//resources//chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://healthunify.com/bmicalculator/");
         WebElement weightInput = driver.findElement(By.name("wg"));
@@ -94,7 +94,7 @@ public class BMICalculatorTests {
 
     @Test
     public void checkStarvationCategory() {
-        System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src//test//resources//chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://healthunify.com/bmicalculator/");
         WebElement weightInput = driver.findElement(By.name("wg"));
